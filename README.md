@@ -3,7 +3,9 @@
 Uses CSGO's game state integration to play when you are dead, and pause it when you are alive
 
 To use place the gamestate integration file in the following folder
+
 	\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\
+
 If you are unable to find this folder than right click the game in steam, go to properties, local files and click local files.
 
 Next change the steamid on line 29 of main.py to your steamid.
@@ -11,9 +13,12 @@ Next change the steamid on line 29 of main.py to your steamid.
 Run main.py
 
 Things you may need to do
+	
 	download and install python 3
+	
 	install pywin32
 		pip install pypiwin32
+	
 	install requests as it is not included with python 3 by default
 		pip install requests
 	
