@@ -1,6 +1,6 @@
 # CSGOMusicPlayer
 
-Uses CSGO's game state integration to play when you are dead, and pause it when you are alive
+Uses CSGO's game state integration to play when you are dead, and pause it when you are alive. It should work with any application where you are able to control music with the play/pause button on your keyboard
 
 To use place the gamestate integration file in the following folder
 
