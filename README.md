@@ -5,7 +5,7 @@ Uses CSGO's game state integration to play when you are dead, and pause it when 
 
 ### Installation
 
-Firstly make sure you have puthon 3 installed. This can be found here https://www.python.org/downloads/
+Firstly make sure you have python 3 installed. This can be found here https://www.python.org/downloads/
 
 #### Windows
 
