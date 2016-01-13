@@ -8,9 +8,6 @@ from flask import Flask, session, request, current_app
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
-# VK_MEDIA_PLAY_PAUSE = 0xB3
-# hwcode = win32api.MapVirtualKey(VK_MEDIA_PLAY_PAUSE, 0)
-
 previous_health = 100
 
 app = Flask(__name__)
