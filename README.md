@@ -46,8 +46,8 @@ The only differences from the windows intructions are that PyAutoGUI has more de
 #### Known issues
 	
 1. If you are using spotify and an advert is playing when your state changes then sometimes it won't play/pause the music when it stops
-	*Play/pause the music when the advert has finished
-	*Pay for spotify premium so there are no adds
+	* Play/pause the music when the advert has finished
+	* Pay for spotify premium so there are no adds
 
 Any input is greatly appreciated. It is very basic, as I just through it together, while learning python at the same time.
 
