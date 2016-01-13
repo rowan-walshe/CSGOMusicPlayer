@@ -16,8 +16,9 @@ Things you may need to do
 	
 	download and install python 3
 	
-	install pywin32
-		pip install pypiwin32
+	install PyAutoGUI
+		pip install PyAutoGUI
+		This may through an error when installing. I fixed this by install Pillow (pip install Pillow)
 	
 	install requests as it is not included with python 3 by default
 		pip install requests

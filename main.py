@@ -1,6 +1,6 @@
 import json
 import requests
-import win32api
+import pyautogui
 import logging
 from flask import Flask, session, request, current_app
 
@@ -8,8 +8,8 @@ from flask import Flask, session, request, current_app
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
-VK_MEDIA_PLAY_PAUSE = 0xB3
-hwcode = win32api.MapVirtualKey(VK_MEDIA_PLAY_PAUSE, 0)
+# VK_MEDIA_PLAY_PAUSE = 0xB3
+# hwcode = win32api.MapVirtualKey(VK_MEDIA_PLAY_PAUSE, 0)
 
 previous_health = 100
 
@@ -33,9 +33,9 @@ def main():
 
 		# If the player goes from being alive to dead or vice versa then it plays/pauses the music using the windows media key play/pause
 		if health == 0 and previous_health != 0:
-			win32api.keybd_event(VK_MEDIA_PLAY_PAUSE, hwcode)
+			pyautogui.press('playpause')
 		elif health != 0 and previous_health == 0:
-			win32api.keybd_event(VK_MEDIA_PLAY_PAUSE, hwcode)
+			pyautogui.press('playpause')
 		previous_health = health
 	return 'you lost the game'
 
