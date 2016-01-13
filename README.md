@@ -9,7 +9,7 @@ Firstly make sure you have puthon 3 installed. This can be found here https://ww
 
 #### Windows
 
-Place the gamestate integration file in the following folder
+Place the gamestate integration file in the following folder. You don't need to change anything in this file.
 
 	\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\
 
