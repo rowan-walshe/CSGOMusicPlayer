@@ -31,10 +31,10 @@ def main():
         # If the player goes from being alive to dead or vice versa then it plays/pauses the music using the windows media key play/pause4
         if health == 0 and previous_health != 0:
             pyautogui.press('playpause')
-            print("Died")
+            # print("Died")
         elif health != 0 and previous_health == 0:
             pyautogui.press('playpause')
-            print("Alive")
+            # print("Alive")
         previous_health = health
     return ("", 200)
 
