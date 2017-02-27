@@ -27,7 +27,7 @@ If it gives an error like pip is not recognised, make sure you have python 3 ins
 
 Next open main.py in a text editor. On line 5 where it says the line below, and change the number to your steamid. If you need to find out what yours is go to https://steamcommunity.com, login and click on your profile picture in the top right. You steamid will be the number that it shows in the address bar.
 
-	TARGET_STEAM_ID = '76561198058071054'
+	mySteamID = '76561198058071054'
 
 Save the file, and then in the command promt window again, run
 
