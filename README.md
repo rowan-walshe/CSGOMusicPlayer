@@ -39,11 +39,11 @@ If it doesn't work try
 
 #### OSX
 
-The only differences from the windows intructions are that PyAutoGUI has more dependences. I will add a more instructions tomorrow as it is currently 6 in the morning
+The only differences from the windows intructions are that PyAutoGUI has more dependences.
 
 #### Linux
 
-The only differences from the windows intructions are that PyAutoGUI has more dependences. I will add a more instructions tomorrow as it is currently 6 in the morning
+The only differences from the windows intructions are that PyAutoGUI has more dependences.
 	
 #### Known issues
 	
